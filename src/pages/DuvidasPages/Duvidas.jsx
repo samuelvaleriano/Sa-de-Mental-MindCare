@@ -5,7 +5,7 @@ export default function DuvidasPage() {
     const navigate = useNavigate();
     return (
         <div>
-            <h2>Dúvidas</h2>
+            <h2>Teste</h2>
             <button onClick={() => navigate('/')} >Voltar</button>
          </div>
         
