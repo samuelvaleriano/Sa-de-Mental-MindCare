@@ -1,16 +1,16 @@
-import Header from '../../Header/Header';
-import styles from './HomePages.module.css';
-import { useNavigate } from 'react-router';
+
+import Styles from './HomePages.module.css';
+import Header from '../../components/Header/Header';
+import Topo from '../../components/TopoComponent/Topo';
 
 export default function HomePage() {
-    const navigate = useNavigate();
+    
 
     return (
-        <div>
-            <Header/>
+        <div className={Styles.HomePage}>
+            <Header />
+            <Topo />
             <h1>Teste</h1>
-        <button onClick={() => navigate('/Duvidas')} >Dúvidas</button>
-        </div>
-        
+        </div>   
     )
 }
