@@ -2,9 +2,9 @@ import styles from './Carrocel.module.css';
 import { useState, useEffect } from 'react';  
 
 const imagens = [
-    "./public/imagens/imagem4.jpg",
-    "./public/imagens/imagem3.jpg",
-    "./public/imagens/hacker2.jpg",
+    "./public/imagens/bainer1.png",
+    "./public/imagens/bainer2.png",
+    "./public/imagens/bainer3.png",
 ];
 
 export default function Carrossel() {

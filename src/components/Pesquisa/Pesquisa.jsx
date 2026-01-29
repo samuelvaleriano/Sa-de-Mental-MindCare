@@ -17,6 +17,10 @@ export default function Pesquisa() {
             id: 3,
             nome: "Humor",
         },
+            {
+            id: 4,
+            nome: "Humor",
+        },
     ];
     useEffect(() => {
         setListProdutos(Produtos);

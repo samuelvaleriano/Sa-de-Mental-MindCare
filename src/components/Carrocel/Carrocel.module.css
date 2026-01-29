@@ -1,8 +1,8 @@
 .carrossel {
   width: 80vw;
-  height: 250px;
+  height: 240px;
   border-radius: 25px;
-  margin: 6% auto;
+  margin: 15% auto;
   overflow: hidden;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
@@ -12,3 +12,31 @@
   height: 100%;
   object-fit: cover;
 }
+@media (min-width: 320px) and (max-width: 767px){
+  .carrossel {
+  width: 80vw;
+  height: 60%;
+  border-radius: 25px;
+  margin: 10% auto;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+}
+@media (min-width: 768px) and (max-width: 1024px){
+  .carrossel {
+  width: 80vw;
+  height: 235px;
+  border-radius: 25px;
+  margin: 6% auto;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}}
+@media (min-width: 1025px){
+  .carrossel {
+  width: 80vw;
+  height: 260px;
+  border-radius: 25px;
+  margin: 4% auto;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}}
