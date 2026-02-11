@@ -23,7 +23,7 @@
 @media (min-width: 320px) and (max-width: 767px){
   .topo{
     position: absolute;
-    top: 36%;
+    top:35%;
     width: 90%;
     height: 98px;
     background-color: #F7F5EA;
@@ -36,7 +36,7 @@
 @media (min-width: 1025px){
   .topo{
     position: absolute;
-    top: 38%;
+    top: 345px;
     width: 80%;
     height: 95px;
     background-color: #F7F5EA;
