@@ -46,9 +46,9 @@ export default function LoginPages() {
             <Selector />
             <h3>Selecione seu perfil para continuar</h3>
             <form onSubmit={autenticarUsuario} className={styles.form}>
-                <input type="text" placeholder="E-mail" value={inputEmail} onChange={(event) => setInputEmail(event.target.value)} />
-                <input type="password" placeholder="Senha" value={inputPassword} onChange={(event) => setInputPassword(event.target.value)} />
-                <Button type="submit" text="Entrar" variant="primary" size="medium" />
+                <input id="loginpage_input_email" value={inputEmail} onChange={(event) => setInputEmail(event.target.value)} placeholder="E-mail" />
+                <input id="loginpage_input_password" type="password" placeholder="Senha" value={inputPassword} onChange={(event) => setInputPassword(event.target.value)} />
+                <Button id="loginpage_button_entrar" type="submit" text="Entrar" variant="primary" size="medium" />
             </form>
             <strong> Ainda não tem conta? <a href="/Cadastro">Criar conta</a></strong>
 

@@ -27,7 +27,7 @@ export default function Button(props) {
     }
 
     return (
-        <button className={styles.button} onClick={props?.onClick} style={{ backgroundColor: colorVariant, width: sizeVariantWidth, fontSize: fontSizeVariant, color: props.variant === "primary" ? "#ffffff" : "#000000" }}>
+        <button id={props.id} className={styles.button} onClick={props?.onClick} style={{ backgroundColor: colorVariant, width: sizeVariantWidth, fontSize: fontSizeVariant, color: props.variant === "primary" ? "#ffffff" : "#000000" }}>
             {props.text}
         </button>
     );

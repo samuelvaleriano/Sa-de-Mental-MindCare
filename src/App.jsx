@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import HomePages from './pages/HomePages/HomePages.jsx';
 import DuvidasPage from './pages/DuvidasPages/Duvidas.jsx';
 import LoginPages from './pages/LoginPages/LoginPages.jsx';
+import Cadastro from './pages/Cadastro/Cadastro.jsx';
 import { ToastContainer } from 'react-toastify';
 
 
@@ -22,7 +23,7 @@ const router = createBrowserRouter([
   },
   {
     path: "Cadastro",
-    element: <h1>Em breve...</h1>,
+    element: <Cadastro />,
   }
 
 ]);
