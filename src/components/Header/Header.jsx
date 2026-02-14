@@ -8,7 +8,7 @@ import Carrossel from "../Carrocel/Carrocel";
 export default function Header() {
   const [open, setOpen] = useState(false);
   const location = useLocation();
-  const isHome = location.pathname === "/";
+  const isHome = location.pathname === "/Home";
   const navigate = useNavigate();
 
 
@@ -41,7 +41,7 @@ export default function Header() {
                 href="#inicio"
                 onClick={() => {
                   setOpen(false);
-                  navigate('/');
+                  navigate('/Home');
                 }}
               >
                 <i class="fa-regular fa-house"></i>

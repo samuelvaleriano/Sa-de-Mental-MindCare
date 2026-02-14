@@ -117,7 +117,7 @@ export default function DuvidasPage() {
         </button>
       </div>
     </footer>
-            <button onClick={() => navigate('/')} >Voltar</button>
+            <button onClick={() => navigate('/Home')} >Voltar</button>
          </div>
         
     )
