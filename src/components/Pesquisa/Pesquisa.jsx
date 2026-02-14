@@ -6,7 +6,7 @@ export default function Pesquisa() {
     const Produtos = [
         {
             id: 1,
-            nome: "Anciedade",
+            nome: "Ansiedade",
         },
         {
             id: 2,

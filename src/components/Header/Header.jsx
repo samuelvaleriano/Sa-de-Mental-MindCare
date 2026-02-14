@@ -61,7 +61,11 @@ export default function Header() {
               </a>
             </li>
             <li>
-              <a href="#agendamentos" onClick={() => setOpen(false)}>
+              <a href="#agendamentos"  onClick={() => {
+                  setOpen(false);
+                  navigate('/agendamentos');
+                }}
+              >
                 <i class="fa-regular fa-calendar"></i>
                 Agendamentos
               </a>
