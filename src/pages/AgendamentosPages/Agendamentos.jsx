@@ -32,7 +32,13 @@ export default function Agendamentos(){
          <div className={styles.container}>
       <Header />
       <main className={styles.main}>
-        <h1>Agendar Consulta</h1>
+        <h1 className={styles.titulo}>Agende sua consulta</h1>
+        <div >
+          <video style={{width:"400px" , borderRadius:"10px", position: "absolute", top:"104px", right:"15px"}}  loop autoPlay>
+  <source src="/video/consultorio.mp4" type="video/mp4" />
+
+</video>
+        </div>
         <div className={styles.section}>
           <label>📅 Escolha a data</label>
           <input
