@@ -1,5 +1,16 @@
 .container {
   min-height: 100vh;
+  background-color:  #f5f2e7;
+}
+
+.titulo{
+   position: absolute;
+    display: flex;
+    color: white;
+    width: 100%;
+    justify-content: center;
+    top: 24px;
+    left: 5px;
 }
 
 .main {
