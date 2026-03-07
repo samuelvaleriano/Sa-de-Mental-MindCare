@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "Respiração para reduzir ansiedade",
+    "image": "/images/tips/breathing.jpg"
+  },
+  {
+    "id": 2,
+    "title": "5 minutos de mindfulness por dia",
+    "image": "/images/tips/mindfulness.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Como melhorar a qualidade do sono",
+    "image": "/images/tips/sleep.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Pequenas pausas reduzem o estresse",
+    "image": "/images/tips/break.jpg"
+  }
+]
