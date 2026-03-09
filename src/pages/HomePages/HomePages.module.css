@@ -5,3 +5,36 @@
     justify-content: center;
     background-color: #f5f2e7
 }
+
+.cardDicas {
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f2e7;
+
+    flex-wrap: wrap;
+}
+.fundoDicas {
+    display: flex;
+    width: 700px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.imagensDicas {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.tituloDicas {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}

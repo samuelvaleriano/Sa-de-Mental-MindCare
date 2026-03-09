@@ -9,11 +9,11 @@ import { useState, useEffect } from 'react';
 
 export default function HomePage() {
     const [listaDicas, setListaDicas] = useState(null);
-    
+
     useEffect(() => {
         fetch("/api/dicas-saude/dicas-saude.json")
-        .then((response) => response.json())
-        .then((result) => setListaDicas(result))
+            .then((response) => response.json())
+            .then((result) => setListaDicas(result))
     }, []);
 
     return (
@@ -25,12 +25,16 @@ export default function HomePage() {
             <div>
                 <p>Dicas de Saúde</p>
                 <div className={Styles.dicas}>
-                    <div className={Styles.dica}>
-                        <p>{listaDicas?.[1]?.title}</p>
-                        <img src={listaDicas?.[1]?.image} alt={listaDicas?.[0]?.title} />
+                    <div className={Styles.cardDicas}>
+                        {listaDicas?.map((dica) => (
+                            <div key={dica.id} className={Styles.fundoDicas}>
+                                <p className={Styles.tituloDicas}>{dica.title}</p>
+                                <img className={Styles.imagensDicas} src={dica.image} alt={dica.title} />
+                            </div>
+                        ))}
                     </div>
                 </div>
             </div>
-        </div>   
+        </div>
     )
 }
