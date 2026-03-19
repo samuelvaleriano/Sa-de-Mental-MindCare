@@ -1,3 +1,7 @@
+label,input{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .container {
   min-height: 100vh;
   background-color:  #f5f2e7;
@@ -12,7 +16,17 @@
     top: 24px;
     left: 5px;
 }
-
+.consulta{
+    width: 350px;
+    height: 200px;
+    position: absolute;
+    color: white;
+    justify-content: center;
+    top: 130px;
+    left: 50px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
 .main {
   max-width: 500px;
   margin: 40px auto;
